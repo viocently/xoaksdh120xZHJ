@@ -11,3 +11,5 @@ We give a brief introduction on how to run our code on a linux platform.
 4. Type `./mitm` in the console to start the search for optimal conditions. After the search completes, you should see the optimal conditions output to the standard output.
 
 Note that the header file "dynamic_bitset.hpp" used in the codes is from the C++ Boost Library, which can be downloaded from (https://www.boost.org/).
+
+This is an example of the compilation command `g++  SuperpolyBGL.cpp deg.cpp -o mitm -std=c++17 -O2 -lm -lpthread -I/$GUROBI_HOME/include/   -L/$GUROBI_HOME/lib -lgurobi_c++ -lgurobi91 -lm`
