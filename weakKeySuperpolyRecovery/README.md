@@ -8,7 +8,7 @@ We give a brief introduction on how to run our code on a linux platform.
    "bit_conditions[58] = BooleanPolynomial(288, "0");bit_conditions[59] = BooleanPolynomial(288, "s32");bit_conditions[42] = BooleanPolynomial(288, "s40s41+s15")", which correspond to the bit conditions
    $k[58] = 0, k[59]+k[57]k[58]+k[32] = 0$ and $k[42]+k[40]k[41]+k[15] = 0$. 
 
-4. Create three folders named "STATE", "LOG" and "TERM" in the console and compile the source files with multi-threading support. This should generate an executable program, let us say it is "mitm".
+4. Create three folders named "STATE", "LOG" and "TERM" in the current directory and compile the source files with multi-threading support. This should generate an executable program, let us say it is "mitm".
 
 5. Type `./mitm` in the console to start the superpoly recovery. After the program completes, you shall see a file "superpoly.txt" in the folder "TERM", which contains the weak-key superpoly.
 
