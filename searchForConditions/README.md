@@ -1,4 +1,4 @@
-Usage of the codes
+## Usage of the codes
 We give a brief introduction on how to run our code on a linux platform.
 
 1. Install Gurobi (our version is 9.1.2) and configure the required environment variables such as "GUROBI_HOME" and "LD_LIBRARY_PATH".
